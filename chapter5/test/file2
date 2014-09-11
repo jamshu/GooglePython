@@ -1,0 +1,3 @@
+  text=f.readlines()
+  for i in text:
+    if len(i)> 40:

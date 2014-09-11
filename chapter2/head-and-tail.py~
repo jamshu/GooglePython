@@ -1,0 +1,9 @@
+import sys
+f=open(sys.argv[1],'r')
+text=f.readlines()
+print 'head lines: '
+for i in text[:10]:
+  print i[:-1]
+print 'tile lines: '
+for i in text[-10:]:
+  print i[:-1]

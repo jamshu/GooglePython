@@ -1,0 +1,7 @@
+import sys
+f=open(sys.argv[1],'r')
+text=f.readlines()
+a=sys.argv[2]
+for i in text:
+  if a in i:
+    print i

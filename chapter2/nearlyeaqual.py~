@@ -1,0 +1,7 @@
+import mutate
+import sys
+def nearlyequal(str1,str2):
+   mutate.mutate1(str1,str2)
+     
+  
+nearlyequal(sys.argv[1],sys.argv[2])

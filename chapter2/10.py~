@@ -1,0 +1,9 @@
+import re
+def extsort(lis):
+  a={}
+  for i in lis:
+    match=re.search(r'(\w+).(\w+)',i)
+    a[match.group(1)]=match.group(2)
+  for i in sorted(a.keys()): 
+    print i+'.'+a[i]
+extsort(['a.txt','b.h','c.w','asd.gty'])

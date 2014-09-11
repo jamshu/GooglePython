@@ -1,0 +1,7 @@
+def unique(set1):
+  set2=set([])
+  for i in set1:
+    if i in set2:
+      set2.add(i)
+  print set2
+unique(set[1,3,4,5,4,2,1])
